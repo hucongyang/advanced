@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+body,header,footer,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,dl,form,input,p{ margin:0; padding:0; font-family:Arial,"微软雅黑";}
+body{ background:#f7f5f8;}
+li{ list-style:none;}
+img{ border:none;}
+a{ text-decoration:none;hide-focus: expression(this.hideFocus=true);  /* for ie 5+ */
+    outline: none;  /* for firefox 1.5 + */ color:#000;}
+input[type="submit"]{-webkit-appearance: none;}
+input{-webkit-appearance:none;appearance:none;outline:none;}
+::-webkit-input-placeholder{color:#555;}
+.clear{zoom:1;}
+.clear:after{content:"\20";display:block;clear:both;}
+.ico { background:url(../images/mix.png) no-repeat;background-size:210px 240px;display: inline-block;vertical-align: middle;}
+input{ font-size:100%;}
+
+header{ background:#f7f7f7; height:44px; line-height:44px;  position:fixed; left:0px; right:0px; top:0px; font-size:16px; color:#2d2e2e; text-align:center; z-index:9999;}
+.header_goback{ position:absolute; left:0px; top:0px; height:44px; width:30px;}
+.header_goback i{ border:2px solid #2d2e2e; border-right:0px; border-bottom:0px; -webkit-transform:rotate(-45deg); transform:rotate(-45deg); width:10px; height:10px; display:block; margin-top:15px; margin-left:10px;}
+.header_link{ position:absolute; right:0px; top:0px; height:44px; line-height:44px; font-size:16px; color:#2d2e2e; padding:0px 10px; text-align:center;}
+header .shezhi{ height:44px; width:30px; position:absolute; right:0px; background:url(http://wx.superjoy.me/Public/x/images/nav.png) no-repeat 6px -65px; background-size:500px 500px; }
+.publish{ height:44px; width:44px; position:absolute; right:0px; background:url(http://wx.superjoy.me/Public/x/images/nav.png) no-repeat -150px -40px; background-size:500px 500px;}
+
+footer{ position:fixed; right:0px; left:0px; width:100%; height:48px; border-top:0px solid #dcdcdc; bottom:0px; background:#f7f7f7;}
+.table-cell {display: table;width: 100%;}
+.menu a.active {color: #ed724d;}
+.table-cell .item {color: #989898;display: table-cell;font-size: 14px;text-align: center; width:50%; }
+
+#wm-menu a{ height:48px; line-height:48px; vertical-align:middle; border-right:1px solid #CCC; }
+.main{ padding:44px 10px 50px;}
+
+.search{ margin:0px 10px;}
+.search input{ width:100%;height:25px; background-image:url(../images/search.png); -webkit-border-radius:3px;border-radius:3px; margin:0px auto; display:block; background-size:100% 100%;border:none; margin-top:9px; text-indent:2em; box-sizing:border-box;}
+
+.menu{ z-index:99999;}
+#wm-menu .item .ico{ height:23px; vertical-align:sub; margin-right:5px;}
+#wm-menu .item .ico-mhome{background:url(../images/icon_home.png); background-size:cover; width:17px; height:17px;}
+#wm-menu .item .ico-user{background:url(../images/icon_daily.png); background-size:cover; width:17px; height:17px;}
+#wm-menu .on{ color:#ffbe32;}
+#wm-menu .on .ico-mhome{background:url(../images/icon_home_on.png); background-size:cover; width:17px; height:17px;}
+#wm-menu .on .ico-user{background:url(../images/icon_daily_on.png); background-size:cover; width:17px; height:17px;}
+
+.h50{ height:50px;}
+.h60{ height:60px;}
+.h44{ height:44px;}
+.h10{ height:10px;}
+.h90{ height:90px;}
+*{-webkit-tap-highlight-color:rgba(0,0,0,0)}
+.a_item_box{ padding:0px 10px; background:#fff; margin-top:13px; }
+.a_item{ height:40px; line-height:40px; padding-left:8px; font-size:14px; color:#3c444c; position:relative; display:block;  border-bottom:1px solid #e7e7e7; background:#fff; padding-right:30px;}
+.a_item i{ border:2px solid #ccc; border-right:0px; border-bottom:0px; -webkit-transform:rotate(135deg); transform:rotate(135deg); width:8px; height:8px; display:block; position:absolute; right:10px; top:15px;}
+.a_item_box .a_item:last-child { border:none;}
+.gohome{ width:40px; height:44px; position:absolute; left:0px; top:0px; background:url(http://wx.superjoy.me/Public/x/images/nav.png) no-repeat; background-size:500px 500px; background-position:8px -96px; }
+
+
+.main{ padding:44px 0px 60px;}
+.opa{ position:fixed; left:0px; top:0px; right:0px; bottom:0px; background:#000; opacity:0.6; width:100%;  display:none; z-index:999;}
+header .save{ width:36px; height:44px; position:absolute; right:0px; top:0px; background:url(http://wx.superjoy.me/Public/x/images/nav.png) no-repeat; background-size:500px 500px; background-position:0px -42px;}
+.fudaoshi{border-radius:8px;background:#ffcc33; display:block; width:46px; padding-top:2px;padding-bottom: 2px;color:#fff; text-align:center; width:42px!important}
